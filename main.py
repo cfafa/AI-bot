@@ -10,7 +10,7 @@ from discord.ext import commands
 
 
 
-name_class = path
+
 
 def getclass_detect(path):
   np.set_printoptions(suppress=True)
@@ -37,7 +37,7 @@ def getclass_detect(path):
 
   return class_name[2:-1]
 
-
+name_class = path
 
 intents = discord.Intents.default()
 intents.message_content = True
